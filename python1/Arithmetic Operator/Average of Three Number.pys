@@ -1,0 +1,5 @@
+three_num = input("Enter three numbers: ")
+num_split = three_num.split()
+num_list = [int(num) for num in num_split]
+ave = sum(num_list) / len(num_list)
+print(f"Average of the three numbers: {ave:.2f}")
