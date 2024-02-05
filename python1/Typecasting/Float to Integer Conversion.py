@@ -1,2 +1,2 @@
-num = float(input("Enter a float: "))
-print(f"The nearest integer is: {int(num)}")
+num = int(input("Enter an integer: "))
+print(f"The float value is: {num:.2f}")
